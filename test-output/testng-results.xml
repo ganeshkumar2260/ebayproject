@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="eBay Test Automation Test Suite" duration-ms="40363" started-at="2019-03-22T20:19:23Z" finished-at="2019-03-22T20:20:03Z">
+    <groups>
+    </groups>
+    <test name="eBay App Test Cases" duration-ms="40363" started-at="2019-03-22T20:19:23Z" finished-at="2019-03-22T20:20:03Z">
+      <class name="com.ebay.test.LandingTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ebay.test.LandingTest@5622fdf]" name="init" is-config="true" duration-ms="12405" started-at="2019-03-22T20:19:23Z" finished-at="2019-03-22T20:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test()[pri:1, instance:com.ebay.test.LandingTest@5622fdf]" name="test" duration-ms="45" started-at="2019-03-22T20:19:35Z" finished-at="2019-03-22T20:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.test.LandingTest@5622fdf]" name="tearDown" is-config="true" duration-ms="2177" started-at="2019-03-22T20:19:36Z" finished-at="2019-03-22T20:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.test.LandingTest -->
+      <class name="com.ebay.test.ElectronicsTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ebay.test.ElectronicsTest@7d9d1a19]" name="init" is-config="true" duration-ms="11745" started-at="2019-03-22T20:19:51Z" finished-at="2019-03-22T20:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test()[pri:1, instance:com.ebay.test.ElectronicsTest@7d9d1a19]" name="test" duration-ms="174" started-at="2019-03-22T20:20:03Z" finished-at="2019-03-22T20:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.test.ElectronicsTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="260" started-at="2019-03-22T20:20:03Z" finished-at="2019-03-22T20:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.test.ElectronicsTest -->
+      <class name="com.ebay.test.DealsTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ebay.test.DealsTest@4883b407]" name="init" is-config="true" duration-ms="12895" started-at="2019-03-22T20:19:38Z" finished-at="2019-03-22T20:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test()[pri:1, instance:com.ebay.test.DealsTest@4883b407]" name="test" duration-ms="282" started-at="2019-03-22T20:19:51Z" finished-at="2019-03-22T20:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.test.DealsTest@4883b407]" name="tearDown" is-config="true" duration-ms="246" started-at="2019-03-22T20:19:51Z" finished-at="2019-03-22T20:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.test.DealsTest -->
+    </test> <!-- eBay App Test Cases -->
+  </suite> <!-- eBay Test Automation Test Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eBay Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.ebay.extentreport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="eBay App Test Cases">
+		<classes>
+			<class name="com.ebay.test.LandingTest"></class>
+			<class name="com.ebay.test.DealsTest"></class>
+			<class name="com.ebay.test.ElectronicsTest"></class>
+
+		</classes>
+	</test>
+</suite>
