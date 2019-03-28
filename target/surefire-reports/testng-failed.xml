@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.ebay.test.ElectronicsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.ebay.test.ElectronicsTest -->
+      <class name="com.ebay.test.HealthBeautyTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ebay.test.HealthBeautyTest -->
+      <class name="com.ebay.test.MotorsTest">
+        <methods>
+          <include name="test"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebay.test.MotorsTest -->
+      <class name="com.ebay.test.BrokenLinksTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="brokenlinksTest"/>
+        </methods>
+      </class> <!-- com.ebay.test.BrokenLinksTest -->
+      <class name="com.ebay.test.HomeGardenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.ebay.test.HomeGardenTest -->
+      <class name="com.ebay.test.LandingTest">
+        <methods>
+          <include name="test"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebay.test.LandingTest -->
+      <class name="com.ebay.test.FashionTest">
+        <methods>
+          <include name="test"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebay.test.FashionTest -->
+      <class name="com.ebay.test.SportsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ebay.test.SportsTest -->
+      <class name="com.ebay.test.CollectiblesTest">
+        <methods>
+          <include name="test"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebay.test.CollectiblesTest -->
+      <class name="com.ebay.test.resultsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ebay.test.resultsTest -->
+      <class name="com.ebay.test.DealsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ebay.test.DealsTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
